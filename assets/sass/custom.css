@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+html, body {
+  scroll-behavior: smooth;
+}
+
+#main {
+  padding-top: 2rem;
+}
+
+p, span, h4 {
+  font-family: 'Open Sans',sans-serif;
+}
+
+header .inner {
+  background-color: rgba(36, 36, 36, 0.7);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-align: center;
+  opacity: 1;
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
+  color: #8b8b8b;
+  padding: 0 1rem;
+  padding-top: 2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header .inner h1, header .inner p {
+  color: white !important;
+}
+
+header .inner h1 {
+  font-size: 2.5rem !important;
+  line-height: 1 !important;
+}
+
+header .inner p, header .inner h4 {
+  margin-top: 2rem;
+}
+
+header .inner .brands {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+header .inner .brands:hover {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+}
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue',cursive;
+}
+
+article .image img {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  height: 300px !important;
+}
+
+.labeled-icons li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0 !important;
+}
+
+.labeled-icons li i {
+  margin-right: 1rem;
+}
+
+footer .flags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+footer .flags img {
+  height: 40px;
+  width: 40px;
+  margin: 0 1rem;
+}
+
+footer .inner {
+  width: 200px;
+  margin: auto;
+}
+
+b {
+  font-weight: 700;
+}
+
+h2 {
+  color: #cc7722;
+}
+/*# sourceMappingURL=custom.css.map */
