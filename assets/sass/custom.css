@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -8,8 +9,10 @@ html, body {
   padding-top: 2rem;
 }
 
-p, span, h4 {
-  font-family: 'Open Sans',sans-serif;
+p,
+span,
+h4 {
+  font-family: "Open Sans", sans-serif;
 }
 
 header .inner {
@@ -40,7 +43,8 @@ header .inner {
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-header .inner h1, header .inner p {
+header .inner h1,
+header .inner p {
   color: white !important;
 }
 
@@ -49,7 +53,8 @@ header .inner h1 {
   line-height: 1 !important;
 }
 
-header .inner p, header .inner h4 {
+header .inner p,
+header .inner h4 {
   margin-top: 2rem;
 }
 
@@ -65,8 +70,10 @@ header .inner .brands:hover {
           filter: brightness(70%);
 }
 
-h1, h2, h3 {
-  font-family: 'Bebas Neue',cursive;
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", cursive;
 }
 
 article .image img {
@@ -120,5 +127,13 @@ b {
 
 h2 {
   color: #cc7722;
+}
+
+.flags a {
+  border-bottom: none;
+}
+
+.primary {
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=custom.css.map */
